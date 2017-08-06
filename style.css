@@ -1,0 +1,118 @@
+body {
+  border: 20px solid #bdc3c7;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 700px;
+  padding: 50px;
+}
+
+.menu {
+  display: block;
+  float: right;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 5px solid powderblue;
+  margin-right: 2px;
+  margin-left: 20px;
+  font-family: courier new;
+  text-align: right;
+}
+
+@media screen and (min-width: 600px;) {
+  header {
+    float: right;
+    width: 25%;
+  }
+}
+
+section {
+  max-width:800px;
+  min-width: 300px;
+  margin: 20px auto;
+  border:5px solid powderblue;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media screen and (min-width: 500px;){
+  section {
+    float: left;
+    width: 30%
+  }
+}
+
+h1 {
+  font-family: courier new;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  background-image: url(atlas.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 250px;
+}
+
+h2 {
+  font-family: courier new;
+}
+
+h4 {
+  font-family: Trebuchet MS;
+}
+
+fieldset {
+  font-family: Trebuchet MS;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+a:link {
+  color:navy blue ;
+}
+
+a:visited {
+  color: powderblue;
+}
+
+a:hover {
+  color: navy blue;
+}
+
+p {
+  font-family: Trebuchet MS;
+}
+
+#DR img {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 700px;
+  margin: 20px auto;
+}
+
+#ecuador img {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 675px;
+  margin: 20px auto;
+}
+
+#brazil img {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 675px;
+  margin: 20px auto;
+}
+
+#colombia img {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 675px;
+  margin: 20px auto;
+}
