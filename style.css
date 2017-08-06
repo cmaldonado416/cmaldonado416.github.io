@@ -1,0 +1,9 @@
+section {
+  width: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  min-width: 312px;
+  display: inline-block;
+  float: left;
+  padding: 1%;
+}
