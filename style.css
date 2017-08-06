@@ -4,7 +4,6 @@ body {
   width: 80%;
   max-width: 700px;
   padding: 50px;
-  font-family: 'Source Sans Pro', sans-serf;
 }
 
 .menu {
@@ -47,6 +46,7 @@ section {
 h1 {
   font-family: courier new;
   text-align: center;
+  letter-spacing: 0.2rem;
   background-image: url(atlas.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -58,6 +58,10 @@ h2 {
 }
 
 h4 {
+  font-family: Trebuchet MS;
+}
+
+fieldset {
   font-family: Trebuchet MS;
 }
 
