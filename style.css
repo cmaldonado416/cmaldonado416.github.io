@@ -1,9 +1,38 @@
+header {
+  display: block;
+  float: right;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 5px solid powderblue;
+  margin-right: 2px;
+  margin-left: 2px;
+  font-family: courier new;
+  text-align: right;
+}
+
 section {
-  width: 10%;
-  margin-left: 5%;
-  margin-right: 5%;
-  min-width: 312px;
-  display: inline-block;
-  float: left;
-  padding: 1%;
+  width:700px;
+  margin: 0 auto;
+  border:5px solid powderblue;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+h1 {
+  font-family: courier new;
+  text-align: center;
+}
+
+h2 {
+  font-family: courier new;
+}
+
+h4 {
+  font-family: Trebuchet MS;
+}
+
+.subtitle {
+  text-align: center;
 }
