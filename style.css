@@ -2,12 +2,13 @@ body {
   border: 20px solid #bdc3c7;
   margin: 20px auto;
   width: 80%;
-  max-width: 700px;
+  min-width: 300px;
   padding: 50px;
 }
 
 .menu {
-  display: block;
+  position: relative;
+  display: inline-block;
   float: right;
   padding-left: 15px;
   padding-right: 15px;
@@ -18,14 +19,15 @@ body {
   margin-left: 20px;
   font-family: courier new;
   text-align: right;
+  font-size: 15px;
 }
 
-@media screen and (min-width: 600px;) {
-  header {
-    float: right;
-    width: 25%;
-  }
+@media only screen and (min-width: 320px)and (max-width: 800px) {
+    .menu {
+       margin-right:100px;
+    }
 }
+
 
 section {
   max-width:800px;
@@ -36,25 +38,31 @@ section {
   padding-right: 5px;
 }
 
-@media screen and (min-width: 500px;){
-  section {
-    float: left;
-    width: 30%
-  }
-}
 
 h1 {
   font-family: courier new;
   text-align: center;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.3rem;
   background-image: url(atlas.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 250px;
+  background-size: cover;
+  width: 50%;
+  margin-left: 60px;
+}
+
+@media only screen and (min-width: 320px)and (max-width: 800px) {
+     h1{
+        width: 60%;
+        margin-top: 150px;
+    }
 }
 
 h2 {
   font-family: courier new;
+  border-left: 6px solid grey;
+  margin-left: 20px;
+  padding-left: 2px;
 }
 
 h4 {
@@ -70,15 +78,11 @@ fieldset {
 }
 
 a:link {
-  color:navy blue ;
+  color:navy blue;
 }
 
 a:visited {
-  color: powderblue;
-}
-
-a:hover {
-  color: navy blue;
+  color:powderblue;
 }
 
 p {
@@ -89,7 +93,8 @@ p {
   position: relative;
   display: inline-block;
   float: left;
-  width: 700px;
+  max-width: 100%;
+  height:auto;
   margin: 20px auto;
 }
 
@@ -97,7 +102,8 @@ p {
   position: relative;
   display: inline-block;
   float: left;
-  width: 675px;
+  max-width: 100%;
+  height:auto;
   margin: 20px auto;
 }
 
@@ -105,7 +111,8 @@ p {
   position: relative;
   display: inline-block;
   float: left;
-  width: 675px;
+  max-width: 100%;
+  height:auto;
   margin: 20px auto;
 }
 
@@ -113,6 +120,7 @@ p {
   position: relative;
   display: inline-block;
   float: left;
-  width: 675px;
+  max-width: 100%;
+  height:auto;
   margin: 20px auto;
 }
